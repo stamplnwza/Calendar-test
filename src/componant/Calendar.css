@@ -1,0 +1,66 @@
+/* ปรับขนาดและสไตล์ของปฏิทิน */
+.fc {
+    width: 100%; /* ปรับความกว้างเต็มพื้นที่ */
+    max-width: 1200px; /* จำกัดความกว้างสูงสุด */
+    margin: 0 auto; /* จัดกึ่งกลาง */
+    font-family: Arial, sans-serif; /* เปลี่ยนฟอนต์ */
+  }
+
+.fc-prev-button,
+.fc-next-button {
+  background-color: black;/* ลบพื้นหลัง */
+   /* ลบเส้นขอบ */
+   /* ลบเงา */
+  color: black; /* สีของลูกศร */
+}
+  
+  /* ปรับหัวข้อปฏิทิน */
+  .fc-header-toolbar {
+    /* background-color: #f0f0f0; สีพื้นหลัง */
+    padding: 10px; /* ระยะห่าง */
+    border-radius: 8px; /* มุมโค้งมน */
+    margin-bottom: 10px; /* ระยะห่างด้านล่าง */
+  }
+
+  .fc .fc-button-primary {
+    background-color: transparent !important ;
+    border-color:transparent !important;
+    color: black;
+}
+.fc .fc-button-primary:hover {
+    background-color: transparent !important ;
+    border-color:transparent !important;
+    color: black;
+}
+
+
+  .fc-toolbar-chunk {
+    display: flex;
+    unicode-bidi: isolate;
+  }
+  /* ปุ่มในหัวข้อปฏิทิน */
+  .fc-button {
+    background-color: #007bff; /* สีพื้นหลังปุ่ม */
+    color: white; /* สีข้อความ */
+    border: none; /* ลบเส้นขอบ */
+    border-radius: 4px; /* มุมโค้งมน */
+    padding: 5px 10px; /* ระยะห่างภายในปุ่ม */
+    margin: 0 5px; /* ระยะห่างระหว่างปุ่ม */
+  }
+  
+  .fc-button:hover {
+    background-color: black;/*พื้นหลังปุ่มเมื่อ hover */
+  }
+  
+  /* ปรับขนาดของวันในปฏิทิน */
+  .fc-daygrid-day {
+    padding: 10px; /* ระยะห่างภายในวัน */
+    border: 1px solid #ddd; /* เส้นขอบ */
+  }
+  
+  /* ปรับขนาดของเหตุการณ์ในปฏิทิน */
+  .fc-event {
+    font-size: 14px; /* ขนาดตัวอักษร */
+    padding: 5px; /* ระยะห่างภายในเหตุการณ์ */
+    border-radius: 4px; /* มุมโค้งมน */
+  }
